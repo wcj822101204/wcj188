@@ -7,7 +7,7 @@ eureka:
   instance:
     preferIpAddress: true
     #这样写eureka服务注册中心会显示本机ip+端口号
-    instanceId: ${spring.cloud.client.ipAddress}:${server.port}
+    instanceId: 192.168.24.104:7777
     #这样写eureka服务注册中心会显示项目名和端口号
     #instanceId: ${spring.application.name}:${server.port}
   client:
