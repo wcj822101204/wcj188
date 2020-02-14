@@ -16,6 +16,6 @@ eureka:
 
 management:
   security:
-  enabled: false
+   enabled: false
     
 name: wcjtest12
