@@ -14,4 +14,4 @@ eureka:
     serviceUrl:
       defaultZone: http://ultrazuul:ultrazuulSecret@192.168.24.104:8070/eureka/  #注册中心地址
 
-name: wcjtest
+name: wcjtest1
