@@ -24,5 +24,5 @@ management:
 name: 9991112
 
 logging:
-  file: ${user.home}/logs/hello.log
-  level: info
+  level: 
+   root: info
