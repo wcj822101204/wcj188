@@ -23,4 +23,6 @@ management:
     enabled: false
 name: 9991112
 
-whata: aa
+logging:
+  file: ${user.home}/logs/hello.log
+  level: info
