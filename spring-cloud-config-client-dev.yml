@@ -25,4 +25,4 @@ name: 9991112
 
 logging:
   level: 
-   root: debug
+   root: DEBUG
