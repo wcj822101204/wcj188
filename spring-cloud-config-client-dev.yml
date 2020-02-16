@@ -15,12 +15,12 @@ eureka:
       defaultZone: http://ultrazuul:ultrazuulSecret@192.168.24.104:8070/eureka/  #注册中心地址
 
 management:
-  security:
-   enabled: false
   endpoints:
-   web:
-    exposure:
-     include: bus-refresh
+    web:
+      exposure:
+        include: '*'
+  security:
+    enabled: false
 name: 999111
 
 whata: aa
