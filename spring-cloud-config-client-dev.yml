@@ -26,3 +26,10 @@ name: 9991112
 logging:
   level: 
    root: info
+
+spring:
+ datasource:
+   username: msa_10
+   password: AnH9WpfGkRHAmEhMJR9YRTDqVp45MAPjj
+   driver-class-name: com.mysql.jdbc.Driver
+   url: jdbc:mysql://192.168.120.190:3306/msa_10?useUnicode=true&characterEncoding=UTF-8
