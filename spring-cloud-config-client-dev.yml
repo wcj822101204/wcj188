@@ -33,3 +33,4 @@ spring:
    password: AnH9WpfGkRHAmEhMJR9YRTDqVp45MAPjj
    driver-class-name: com.mysql.jdbc.Driver
    url: jdbc:mysql://192.168.120.190:3306/msa_10?useUnicode=true&characterEncoding=UTF-8
+   initialize: false
